@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MailKit" Version="2.15.0" />
+		<PackageReference Include="Mayhem.Configuration" Version="1.0.1" />
+		<PackageReference Include="Mayhem.Logger" Version="1.0.0" />
+		<PackageReference Include="Mayhem.SqlDapper" Version="1.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+		<PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mayhem.Consumer.Dal.Dto\Mayhem.Consumer.Dal.Dto.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Mayhem.Wallet.Worker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MayhemConfigurationType": "Production",
+        "MayhemAzureAppConfigurationConnecitonString": "Server=tcp:kielson-server.database.windows.net,1433;Initial Catalog=TDSAuthApiSqlDatabase;Persist Security Info=False;User ID=kielson;Password=SuperHaslo123!@#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+      },
+      "commandLineArgs": "--port 7165",
+      "launchBrowser": false
+    }
+  }
+}

@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="5.1.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.AzureStorage" Version="5.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.Redis" Version="5.0.2" />
+		<PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="5.0.3" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI" Version="5.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="5.0.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="5.0.1" />
+		<PackageReference Include="Mayhem.BlobStorage" Version="1.0.0" />
+		<PackageReference Include="Mayhem.Configuration" Version="1.0.2" />
+		<PackageReference Include="Mayhem.HealthCheck" Version="1.0.0" />
+		<PackageReference Include="Mayhem.HttpClient" Version="1.0.0" />
+		<PackageReference Include="Mayhem.Settings" Version="1.0.0" />
+		<PackageReference Include="Mayhem.Setup" Version="1.0.2" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.18.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+		<PackageReference Include="Scrutor" Version="3.3.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="5.0.1" />
+		<PackageReference Include="StackExchange.Redis" Version="2.5.61" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mayhem.Dal\Mayhem.Dal.csproj" />
+		<ProjectReference Include="..\Mayhen.Bl\Mayhen.Bl.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.0\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.0\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.1\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.1\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+</Project>

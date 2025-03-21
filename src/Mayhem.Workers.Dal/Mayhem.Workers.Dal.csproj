@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mayhem.Worker.Dal.Dto\Mayhem.Worker.Dal.Dto.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Mayhem.Configuration" Version="1.0.1" />
+	<PackageReference Include="Mayhem.Blockchain" Version="1.0.0" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Mayhem.SqlDapper" Version="1.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.1\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.1\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "DevelopmentNPCWorker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MayhemConfigurationType": "Development"
+      }
+    },
+    "ProductionNPCWorker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MayhemConfigurationType": "Production"
+      }
+    }
+  }
+}

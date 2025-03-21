@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Scripts\Invite.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Scripts\Invite.html">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mayhem.SmtpBase\Mayhem.SmtpBase.csproj" />
+	</ItemGroup>
+
+</Project>

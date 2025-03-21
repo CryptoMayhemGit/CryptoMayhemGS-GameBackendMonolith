@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Mayhem.Configuration" Version="1.0.1" />
+		<ProjectReference Include="..\Mayhem.Workers.Dal\Mayhem.Workers.Dal.csproj" />
+	</ItemGroup>
+
+</Project>

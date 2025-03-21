@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="appsettings.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Mayhem.Configuration" Version="1.0.2" />
+	  <PackageReference Include="Mayhem.Logger" Version="1.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Mayhem.Generator.ApplicationSetup\Mayhem.Generator.ApplicationSetup.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+</Project>

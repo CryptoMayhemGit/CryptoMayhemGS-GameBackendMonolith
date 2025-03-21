@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mayhem.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Mayhem.WebApi.Controllers.AccountController.Login(Mayhen.Bl.Commands.Login.LoginCommandRequest)">
+            <summary>
+            Login via metamask signature and get token.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.AccountController.Register(Mayhen.Bl.Commands.Register.RegisterCommandRequest)">
+            <summary>
+            Create account by wallet address.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.BuildingController.AddBuildingToSpot(Mayhen.Bl.Commands.AddBuildingToSpot.AddBuildingToSpotCommandRequest)">
+            <summary>
+            Add building to spot.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.BuildingController.AddGuildBuilding(Mayhen.Bl.Commands.AddGuildBuilding.AddGuildBuildingCommandRequest)">
+            <summary>
+            Add building to guild.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.BuildingController.GetBuildingList(Mayhem.Dal.Dto.Enums.Dictionaries.SpotsType)">
+            <summary>
+            Get building list of a specific spot type.
+            </summary>
+            <param name="spotType">Type of the spot.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.BuildingController.GetGuildBuildingList(System.Int32)">
+            <summary>
+            Get guild buildings.
+            </summary>
+            <param name="guildId">The guild identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.BuildingController.UpgradeBuilding(Mayhen.Bl.Commands.UpgradeBuilding.UpgradeBuildingCommandRequest)">
+            <summary>
+            Upgrade building.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.BuildingController.UpgradeGuildBuilding(Mayhen.Bl.Commands.UpgradeGuildBuilding.UpgradeGuildBuildingCommandRequest)">
+            <summary>
+            Upgrade guild building.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.GetGuilds(Mayhen.Bl.Commands.GetGuilds.GetGuildsCommandRequest)">
+            <summary>
+            Get the guilds.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.GetGuildById(System.Int32)">
+            <summary>
+            Get the guild by identifier.
+            </summary>
+            <param name="guildId">The guild identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.GetInvitationsByGuildId(System.Int32)">
+            <summary>
+            Get the invitations by guild identifier.
+            </summary>
+            <param name="guildId">The guild identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.GetInvitationsByUserId">
+            <summary>
+            Get the invitations by user identifier.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.AcceptInvitationByOwner(Mayhen.Bl.Commands.AcceptInvitationByOwner.AcceptInvitationByOwnerCommandRequest)">
+            <summary>
+            Accept the invitation by owner.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.AcceptInvitationByUser(Mayhen.Bl.Commands.AcceptInvitationByUser.AcceptInvitationByUserCommandRequest)">
+            <summary>
+            Accept the invitation by user.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.AskToJoinGuildByUser(Mayhen.Bl.Commands.AsksToJoinGuildByUser.AskToJoinGuildByUserCommandRequest)">
+            <summary>
+            Ask to join guild by user.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.InviteUserByGuildOwner(Mayhen.Bl.Commands.InviteUserByGuildOwner.InviteUserByGuildOwnerCommandRequest)">
+            <summary>
+            Invite the user by guild owner.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.ChangeGuildOwner(Mayhen.Bl.Commands.ChangeGuildOwner.ChangeGuildOwnerCommandRequest)">
+            <summary>
+            Change the guild owner.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.CloseGuild">
+            <summary>
+            Close the guild.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.CreateGuild(Mayhen.Bl.Commands.CreateGuild.CreateGuildCommandRequest)">
+            <summary>
+            Create the guild.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.DeclineInvitationByOwner(Mayhen.Bl.Commands.DeclineInvitationByOwner.DeclineInvitationByOwnerCommandRequest)">
+            <summary>
+            Decline the invitation by owner.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.DeclineInvitationByUser(Mayhen.Bl.Commands.DeclineInvitationByUser.DeclineInvitationByUserCommandRequest)">
+            <summary>
+            Decline the invitation by user.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.LeaveGuild">
+            <summary>
+            Leave the guild.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.GuildController.RemoveUserFromGuildByOwner(Mayhen.Bl.Commands.RemoveUserFromGuildByOwner.RemoveUserFromGuildByOwnerCommandRequest)">
+            <summary>
+            Remove the user from guild by owner.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.HealthController.AgentDatabaseCrud">
+            <summary>
+            Check database connection - healthcheck.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ImprovementController.CheckImprevement(Mayhen.Bl.Commands.CheckImprovement.CheckImprovementCommandRequest)">
+            <summary>
+            Check if land can add an improvement.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ImprovementController.CheckGuildImprevement(Mayhen.Bl.Commands.CheckGuildImprovement.CheckGuildImprovementCommandRequest)">
+            <summary>
+            Check if guild can add an improvement.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ImprovementController.AddImprovement(Mayhen.Bl.Commands.AddImprovement.AddImprovementCommandRequest)">
+            <summary>
+            Add improvement to land.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ImprovementController.AddGuildImprovement(Mayhen.Bl.Commands.AddGuildImprovement.AddGuildImprovementCommandRequest)">
+            <summary>
+            Add improvement to guild.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ImprovementController.GetImprovements(System.Int64)">
+            <summary>
+            Get all improvements of the land.
+            </summary>
+            <param name="landId">The land identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ImprovementController.GetGuildImprovements(System.Int32)">
+            <summary>
+            Get all improvements of the guild.
+            </summary>
+            <param name="guildId">The guild identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ItemController.GetNftItem(System.Int64)">
+            <summary>
+            Get item nft data.
+            </summary>
+            <param name="itemId">The item identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ItemController.GetAvailableItems">
+            <summary>
+            Get available items per user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ItemController.GetUnavailableItems">
+            <summary>
+            Get unavailable items per user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ItemController.AssignItemToNpc(Mayhen.Bl.Commands.AssignItemToNpc.AssignItemToNpcCommandRequest)">
+            <summary>
+            Assigns the item to npc.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.ItemController.ReleaseItemFromNpc(Mayhen.Bl.Commands.ReleaseItemFromNpc.ReleaseItemFromNpcCommandRequest)">
+            <summary>
+            Releases the item from npc.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.LandController.GetNftLand(System.Int64)">
+            <summary>
+            Get land nft data.
+            </summary>
+            <param name="landId">The land identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.NpcController.GetNftNpc(System.Int64)">
+            <summary>
+            Get npc nft data.
+            </summary>
+            <param name="npcId">The NPC identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.NpcController.GetAvaliableNpcs">
+            <summary>
+            Get the avaliable npcs by user identifier.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.NpcController.MoveNpcCommand(Mayhen.Bl.Commands.MoveNpc.MoveNpcCommandRequest)">
+            <summary>
+            Move npc from spot(A) to spot(B).
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.SpotController.GetDiscoveredSpots(System.Int64)">
+            <summary>
+            Get the discovered spots by land identifier.
+            </summary>
+            <param name="landId">The land identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.SpotController.GetUndiscoveredSpots(System.Int64)">
+            <summary>
+            Get the undiscovered spots by land identifier.
+            </summary>
+            <param name="landId">The land identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.SpotController.GetSpotDetails(System.Int64)">
+            <summary>
+            Get spot details.
+            </summary>
+            <param name="spotId">The spot identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.SpotController.GetSpotStatus(System.Int64)">
+            <summary>
+            Get spot status.
+            </summary>
+            <param name="spotId">The spot identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mayhem.WebApi.Controllers.UserController.GetUser(Mayhen.Bl.Commands.GetUser.GetUserCommandRequest)">
+            <summary>
+            Get user with specific information.
+            </summary>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

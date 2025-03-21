@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="appsettings.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mayhem.Consumer.Dal\Mayhem.Consumer.Dal.csproj" />
+		<ProjectReference Include="..\Mayhem.Notification.QueueConsumer\Mayhem.Notification.QueueConsumer.csproj" />
+		<ProjectReference Include="..\Mayhem.Queue.Consumer.Base\Mayhem.Queue.Consumer.Base.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.6.0" />
+    <PackageReference Include="Mayhem.Configuration" Version="1.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="Moq" Version="4.17.2" />
+    <PackageReference Include="NUnit" Version="3.13.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mayhem.Consumer.Dal\Mayhem.Consumer.Dal.csproj" />
+    <ProjectReference Include="..\Mayhem.Consumer.Test.Common\Mayhem.Consumer.Test.Common.csproj" />
+    <ProjectReference Include="..\Mayhem.Item.QueueConsumer\Mayhem.Item.QueueConsumer.csproj" />
+    <ProjectReference Include="..\Mayhem.Land.QueueConsumer\Mayhem.Land.QueueConsumer.csproj" />
+    <ProjectReference Include="..\Mayhem.Notification.QueueConsumer\Mayhem.Notification.QueueConsumer.csproj" />
+    <ProjectReference Include="..\Mayhem.Npc.QueueConsumer\Mayhem.Npc.QueueConsumer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

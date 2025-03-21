@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+		<ProjectReference Include="..\Mayhem.SmtpServices\Mayhem.SmtpServices.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mayhem.Consumer.Dal\Mayhem.Consumer.Dal.csproj" />
+		<ProjectReference Include="..\Mayhem.Queue.Consumer.Base\Mayhem.Queue.Consumer.Base.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Moq" Version="4.17.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mayhem.Consumer.Dal\Mayhem.Consumer.Dal.csproj" />
+		<ProjectReference Include="..\Mayhem.SmtpBase\Mayhem.SmtpBase.csproj" />
+		<ProjectReference Include="..\Mayhem.Item.QueueConsumer\Mayhem.Item.QueueConsumer.csproj" />
+	</ItemGroup>
+
+</Project>

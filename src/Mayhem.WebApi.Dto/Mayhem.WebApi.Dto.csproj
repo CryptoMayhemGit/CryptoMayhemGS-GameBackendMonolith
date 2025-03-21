@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mayhem.Dal.Dto\Mayhem.Dal.Dto.csproj" />
+    <ProjectReference Include="..\Mayhen.Bl\Mayhen.Bl.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mayhem.Blockchain" Version="1.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+  </ItemGroup>
+
+</Project>

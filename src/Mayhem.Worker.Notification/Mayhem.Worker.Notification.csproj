@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Mayhem.Configuration" Version="1.0.1" />
+		<PackageReference Include="Mayhem.Queue.Publisher" Version="1.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mayhem.SmtpServices\Mayhem.SmtpServices.csproj" />
+		<ProjectReference Include="..\Mayhem.Workers.Dal\Mayhem.Workers.Dal.csproj" />
+	</ItemGroup>
+
+</Project>

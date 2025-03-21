@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{3337367C-48BD-4B0F-BB77-851FCBA8AD5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Worker.TransferListener", "Mayhem.Worker.TransferListener\Mayhem.Worker.TransferListener.csproj", "{34D04FE3-E6D6-4406-8C53-B0125C9A102B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{15136EBB-150C-4803-999A-8C3342F0BC4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{7485C922-B356-4587-A71D-64C6AA08282F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Workers.Dal", "Mayhem.Workers.Dal\Mayhem.Workers.Dal.csproj", "{26BA2358-1C89-472D-81A2-22969FA0DD5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Worker.Dal.Dto", "Mayhem.Worker.Dal.Dto\Mayhem.Worker.Dal.Dto.csproj", "{CF6D90EA-B763-41D7-AB50-60D15AF191D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Worker.Base", "Mayhem.Worker.Base\Mayhem.Worker.Base.csproj", "{8890BAEF-C0DD-4A07-9BC1-EDC3DE921E4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Item.Worker.App", "Mayhem.Item.Worker.App\Mayhem.Item.Worker.App.csproj", "{72B058CE-A0F2-484B-B5BF-3081B0AD8033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Land.Worker.App", "Mayhem.Land.Worker.App\Mayhem.Land.Worker.App.csproj", "{5EB160DD-C2E7-429C-8725-3BF0A9C92E81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Npc.Worker.App", "Mayhem.Npc.Worker.App\Mayhem.Npc.Worker.App.csproj", "{C0053FA9-F8D2-47F8-83B8-FF09E82C6574}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3271CADB-A2E2-43BA-B739-DB7B79FCC8F3}"
+	ProjectSection(SolutionItems) = preProject
+		BlockchainWorkersDescription.md = BlockchainWorkersDescription.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D04FE3-E6D6-4406-8C53-B0125C9A102B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D04FE3-E6D6-4406-8C53-B0125C9A102B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D04FE3-E6D6-4406-8C53-B0125C9A102B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D04FE3-E6D6-4406-8C53-B0125C9A102B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BA2358-1C89-472D-81A2-22969FA0DD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BA2358-1C89-472D-81A2-22969FA0DD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BA2358-1C89-472D-81A2-22969FA0DD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BA2358-1C89-472D-81A2-22969FA0DD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6D90EA-B763-41D7-AB50-60D15AF191D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6D90EA-B763-41D7-AB50-60D15AF191D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6D90EA-B763-41D7-AB50-60D15AF191D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6D90EA-B763-41D7-AB50-60D15AF191D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8890BAEF-C0DD-4A07-9BC1-EDC3DE921E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8890BAEF-C0DD-4A07-9BC1-EDC3DE921E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8890BAEF-C0DD-4A07-9BC1-EDC3DE921E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8890BAEF-C0DD-4A07-9BC1-EDC3DE921E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B058CE-A0F2-484B-B5BF-3081B0AD8033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B058CE-A0F2-484B-B5BF-3081B0AD8033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B058CE-A0F2-484B-B5BF-3081B0AD8033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B058CE-A0F2-484B-B5BF-3081B0AD8033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB160DD-C2E7-429C-8725-3BF0A9C92E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB160DD-C2E7-429C-8725-3BF0A9C92E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB160DD-C2E7-429C-8725-3BF0A9C92E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB160DD-C2E7-429C-8725-3BF0A9C92E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0053FA9-F8D2-47F8-83B8-FF09E82C6574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0053FA9-F8D2-47F8-83B8-FF09E82C6574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0053FA9-F8D2-47F8-83B8-FF09E82C6574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0053FA9-F8D2-47F8-83B8-FF09E82C6574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34D04FE3-E6D6-4406-8C53-B0125C9A102B} = {3337367C-48BD-4B0F-BB77-851FCBA8AD5E}
+		{26BA2358-1C89-472D-81A2-22969FA0DD5A} = {7485C922-B356-4587-A71D-64C6AA08282F}
+		{CF6D90EA-B763-41D7-AB50-60D15AF191D5} = {7485C922-B356-4587-A71D-64C6AA08282F}
+		{8890BAEF-C0DD-4A07-9BC1-EDC3DE921E4C} = {3337367C-48BD-4B0F-BB77-851FCBA8AD5E}
+		{72B058CE-A0F2-484B-B5BF-3081B0AD8033} = {15136EBB-150C-4803-999A-8C3342F0BC4E}
+		{5EB160DD-C2E7-429C-8725-3BF0A9C92E81} = {15136EBB-150C-4803-999A-8C3342F0BC4E}
+		{C0053FA9-F8D2-47F8-83B8-FF09E82C6574} = {15136EBB-150C-4803-999A-8C3342F0BC4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F3BA156-7FEC-45B4-B3F6-928645897590}
+	EndGlobalSection
+EndGlobal

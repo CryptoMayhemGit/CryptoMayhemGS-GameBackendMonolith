@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Mayhem.Configuration" Version="1.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="NUnit" Version="3.13.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mayhem.Dal.Mock\Mayhem.Dal.Mock.csproj" />
+    <ProjectReference Include="..\Mayhem.Dal\Mayhem.Dal.csproj" />
+    <ProjectReference Include="..\Mayhem.Generator.ApplicationSetup\Mayhem.Generator.ApplicationSetup.csproj" />
+    <ProjectReference Include="..\Mayhem.Land.Bl\Mayhem.Land.Bl.csproj" />
+    <ProjectReference Include="..\Mayhem.Package.Bl\Mayhem.Package.Bl.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\pawel\.nuget\packages\mayhem.configuration\1.0.2\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

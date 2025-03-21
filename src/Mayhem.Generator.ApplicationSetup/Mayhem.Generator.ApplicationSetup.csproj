@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mayhem.Dal\Mayhem.Dal.csproj" />
+    <ProjectReference Include="..\Mayhem.Land.Bl\Mayhem.Land.Bl.csproj" />
+    <ProjectReference Include="..\Mayhem.Land.Worker\Mayhem.Land.Worker.csproj" />
+    <ProjectReference Include="..\Mayhem.Package.Bl\Mayhem.Package.Bl.csproj" />
+    <ProjectReference Include="..\Mayhem.Package.Worker\Mayhem.Package.Worker.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Scrutor" Version="3.3.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.1\contentFiles\any\net5.0\Configs\Development.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\kielt\.nuget\packages\mayhem.configuration\1.0.1\contentFiles\any\net5.0\Configs\Production.MayhemConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

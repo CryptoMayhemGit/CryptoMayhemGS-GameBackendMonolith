@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{C609B962-664F-40A0-BA8A-E13EE04338E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{F4CE0E69-3F87-4CE1-825C-8EC17B7F953E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{B4CD59D0-4D49-4DB4-8107-11E4245FC90A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Worker.Dal.Dto", "Mayhem.Worker.Dal.Dto\Mayhem.Worker.Dal.Dto.csproj", "{87754EA4-A0F6-45AC-A31A-6CE370001D47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Workers.Dal", "Mayhem.Workers.Dal\Mayhem.Workers.Dal.csproj", "{54752979-12A1-456F-B4A8-8A1AF13C2143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E245D695-A9AC-4902-8CE6-F67142E4A62C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{54492E9F-DA20-4AC9-92F9-AFC4C9EABC2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Discovery.Mission.Worker.App", "Mayhem.Discovery.Mission.Worker.App\Mayhem.Discovery.Mission.Worker.App.csproj", "{26D7774A-74CF-4192-AF4E-64A0E47AE42F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Explore.Mission.Worker.App", "Mayhem.Explore.Mission.Worker.App\Mayhem.Explore.Mission.Worker.App.csproj", "{30FEE080-C54E-4507-8356-300377B9A64E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Discovery.Mission.Worker", "Mayhem.Discovery.Mission.Worker\Mayhem.Discovery.Mission.Worker.csproj", "{DA1C270B-450B-4389-BE9B-8011192E93F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.Explore.Mission.Worker", "Mayhem.Explore.Mission.Worker\Mayhem.Explore.Mission.Worker.csproj", "{53F829C9-99B5-49FA-96CB-D219AFC3D802}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mayhem.MissionsWorker.IntegrationTests", "Mayhem.MissionsWorker.IntegrationTests\Mayhem.MissionsWorker.IntegrationTests.csproj", "{74490611-CC36-42AD-9A64-8E3C8A6307EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F763075A-975B-46BF-B97A-E10600FD0BBB}"
+	ProjectSection(SolutionItems) = preProject
+		MissionsWorkerDescription.md = MissionsWorkerDescription.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87754EA4-A0F6-45AC-A31A-6CE370001D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87754EA4-A0F6-45AC-A31A-6CE370001D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87754EA4-A0F6-45AC-A31A-6CE370001D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87754EA4-A0F6-45AC-A31A-6CE370001D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54752979-12A1-456F-B4A8-8A1AF13C2143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54752979-12A1-456F-B4A8-8A1AF13C2143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54752979-12A1-456F-B4A8-8A1AF13C2143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54752979-12A1-456F-B4A8-8A1AF13C2143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D7774A-74CF-4192-AF4E-64A0E47AE42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D7774A-74CF-4192-AF4E-64A0E47AE42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D7774A-74CF-4192-AF4E-64A0E47AE42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D7774A-74CF-4192-AF4E-64A0E47AE42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FEE080-C54E-4507-8356-300377B9A64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FEE080-C54E-4507-8356-300377B9A64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FEE080-C54E-4507-8356-300377B9A64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FEE080-C54E-4507-8356-300377B9A64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1C270B-450B-4389-BE9B-8011192E93F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1C270B-450B-4389-BE9B-8011192E93F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1C270B-450B-4389-BE9B-8011192E93F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1C270B-450B-4389-BE9B-8011192E93F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F829C9-99B5-49FA-96CB-D219AFC3D802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F829C9-99B5-49FA-96CB-D219AFC3D802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F829C9-99B5-49FA-96CB-D219AFC3D802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F829C9-99B5-49FA-96CB-D219AFC3D802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74490611-CC36-42AD-9A64-8E3C8A6307EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74490611-CC36-42AD-9A64-8E3C8A6307EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74490611-CC36-42AD-9A64-8E3C8A6307EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74490611-CC36-42AD-9A64-8E3C8A6307EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87754EA4-A0F6-45AC-A31A-6CE370001D47} = {B4CD59D0-4D49-4DB4-8107-11E4245FC90A}
+		{54752979-12A1-456F-B4A8-8A1AF13C2143} = {B4CD59D0-4D49-4DB4-8107-11E4245FC90A}
+		{54492E9F-DA20-4AC9-92F9-AFC4C9EABC2C} = {E245D695-A9AC-4902-8CE6-F67142E4A62C}
+		{26D7774A-74CF-4192-AF4E-64A0E47AE42F} = {C609B962-664F-40A0-BA8A-E13EE04338E5}
+		{30FEE080-C54E-4507-8356-300377B9A64E} = {C609B962-664F-40A0-BA8A-E13EE04338E5}
+		{DA1C270B-450B-4389-BE9B-8011192E93F1} = {F4CE0E69-3F87-4CE1-825C-8EC17B7F953E}
+		{53F829C9-99B5-49FA-96CB-D219AFC3D802} = {F4CE0E69-3F87-4CE1-825C-8EC17B7F953E}
+		{74490611-CC36-42AD-9A64-8E3C8A6307EC} = {54492E9F-DA20-4AC9-92F9-AFC4C9EABC2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F3BA156-7FEC-45B4-B3F6-928645897590}
+	EndGlobalSection
+EndGlobal
